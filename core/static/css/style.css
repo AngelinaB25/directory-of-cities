@@ -1,3 +1,10 @@
 body{
     background-color: pink;  
 }
+h1{
+    color:goldenrod;
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
