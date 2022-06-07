@@ -19,5 +19,12 @@ from core.views import main
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', main)
+    path('', main),
+    path('New York', main, name= 'New York'),
+    path('Tel Aviv', main, name= 'Tel Aviv'),
+    path('Mexico city', main, name= 'Mexico city'),
+    path('Pariz', main, name= 'Pariz'),
+    path('Los Angles', main, name= 'Los Angles'),
+    path('Jerusalem', main, name= 'Jerusalem'),
+   
 ]   

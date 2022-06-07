@@ -1,4 +1,10 @@
 from django.shortcuts import render
 def main(request):
-    return render(request, 'main.html')
+    path = request.path
+    path = path.replace('/','')
+    if path == "":
+        path = 'main'
+    cities = ['New York','Tel Aviv','Mexico city','Pariz','Los Angles','Jerusalem']
+    return render(request,f'{path}.html',{'cities':cities})
+    
 # Create your views here.

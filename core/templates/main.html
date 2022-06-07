@@ -1,18 +1,9 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            directory of cities
-        </title>
-        <link rel = "stylesheet" href  ="{% static 'css/style.css' %}" type = "text/css">
-    </head>
-    <body>
-        <h1>
-            directory of cities
-        </h1>
-        <p>
-            on the site we can see short information about world cities
-        </p>
-    </body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+<h1>
+    city directory
+</h1>
+<p>
+    In the site you can see a short information about cities around the world
+</p>
+{% endblock %}
