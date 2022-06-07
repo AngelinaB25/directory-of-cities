@@ -5,6 +5,6 @@ def main(request):
     if path == "":
         path = 'main'
     cities = ['New York','Tel Aviv','Mexico city','Pariz','Los Angles','Jerusalem']
-    return render(request,f'{path}.html',{'cities':cities})
+    return render(request, f'{path}.html',{'cities':cities})
     
 # Create your views here.
