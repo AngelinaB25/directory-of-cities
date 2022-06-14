@@ -4,7 +4,7 @@ def main(request):
     path = path.replace('/','')
     if path == "":
         path = 'main'
-    cities = ['New York','Tel Aviv','Mexico city','Pariz','Los Angles','Jerusalem']
+    cities = ['New York','Tel Aviv','Mexico city','Pariz','Los Angeles','Jerusalem']
     return render(request, f'{path}.html',{'cities':cities})
     
 # Create your views here.
