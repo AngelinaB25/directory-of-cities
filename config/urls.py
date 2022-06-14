@@ -24,7 +24,7 @@ urlpatterns = [
     path('Tel Aviv', main, name= 'Tel Aviv'),
     path('Mexico city', main, name= 'Mexico city'),
     path('Pariz', main, name= 'Pariz'),
-    path('Los Angles', main, name= 'Los Angles'),
+    path('Los Angeles', main, name= 'Los Angeles'),
     path('Jerusalem', main, name= 'Jerusalem'),
    
 ]   
